@@ -18,17 +18,16 @@ function App() {
 
   const handleSelectFolder = async () => {
     try {
-      const path = await window.electronAPI.selectFolder();
-      if (path) {
-        setFolderPath(path);
-        const fs = require('fs');
-        const fsPath = require('path');
-        const files = fs.readdirSync(path);
-        const imageFiles = files.filter(f =>
-          /\.(jpg|jpeg|png|gif|webp)$/i.test(f)
-        );
-        setImages(imageFiles);
-        setProgress(`Found ${imageFiles.length} image(s)`);
+      const folderPath = await window.electronAPI.selectFolder();
+      if (folderPath) {
+        setFolderPath(folderPath);
+        const result = await window.electronAPI.readFolder(folderPath);
+        if (result.success) {
+          setImages(result.files);
+          setProgress(`Found ${result.files.length} image(s)`);
+        } else {
+          setProgress(`Error reading folder: ${result.error}`);
+        }
       }
     } catch (error) {
       setProgress(`Error selecting folder: ${error.message}`);
@@ -41,11 +40,18 @@ function App() {
       return;
     }
 
+    const totalNeeded = splitCount.leah + splitCount.catalina + splitCount.isabella;
+    if (images.length < totalNeeded) {
+      setProgress(`Need ${totalNeeded} images but only have ${images.length}`);
+      return;
+    }
+
     setLoading(true);
     setProgress('Starting automation...');
 
     try {
-      const imagePaths = images.map(img => `${folderPath}/${img}`);
+      // Note: imagePaths will be properly joined on the main process side
+      const imagePaths = images.map(img => ({ folder: folderPath, file: img }));
 
       window.electronAPI.onProgress((msg) => {
         setProgress(msg);

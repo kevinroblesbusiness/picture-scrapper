@@ -46,13 +46,15 @@ app.on('activate', () => {
 });
 
 // IPC handlers for automation
-ipcMain.handle('start-upload', async (event, { imagePaths, character, higgsFieldUrl }) => {
+ipcMain.handle('start-upload', async (event, { imagePaths, splitCount, higgsFieldUrl }) => {
   try {
     const result = await autoUploadToHiggsfield({
       imagePaths,
-      character,
+      splitCount,
       higgsFieldUrl,
-      onProgress: (msg) => mainWindow.webContents.send('progress', msg)
+      onProgress: (msg) => {
+        if (mainWindow) mainWindow.webContents.send('progress', msg);
+      }
     });
     return { success: true, result };
   } catch (error) {
@@ -66,4 +68,19 @@ ipcMain.handle('select-folder', async () => {
     properties: ['openDirectory']
   });
   return result.filePaths[0] || null;
+});
+
+ipcMain.handle('read-folder', async (event, folderPath) => {
+  try {
+    const fs = require('fs');
+    const path = require('path');
+    const extensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
+    const files = fs.readdirSync(folderPath);
+    const imageFiles = files.filter(file =>
+      extensions.includes(path.extname(file).toLowerCase())
+    );
+    return { success: true, files: imageFiles };
+  } catch (error) {
+    return { success: false, error: error.message };
+  }
 });
