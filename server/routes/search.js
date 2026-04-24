@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 const router = express.Router();
 
-// Pinterest search endpoint - uses web scraping approach
+// Mock Pinterest search - returns sample images
 router.get('/', async (req, res) => {
   try {
     const { query } = req.query;
@@ -11,23 +11,14 @@ router.get('/', async (req, res) => {
       return res.status(400).json({ error: 'Search query required' });
     }
 
-    // Fetch from Pinterest search page
-    const searchUrl = `https://www.pinterest.com/search/pins/?q=${encodeURIComponent(query)}`;
-
-    const response = await axios.get(searchUrl, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-      }
-    });
-
-    // Parse initial pins from page HTML
-    const pins = extractPinsFromHTML(response.data);
+    // Generate mock results based on query
+    const mockPins = generateMockPins(query);
 
     res.json({
       success: true,
       query,
-      pins,
-      total: pins.length
+      pins: mockPins,
+      total: mockPins.length
     });
   } catch (error) {
     console.error('Search error:', error.message);
@@ -38,20 +29,26 @@ router.get('/', async (req, res) => {
   }
 });
 
-function extractPinsFromHTML(html) {
-  // This is a simplified extraction - in production you'd use a proper HTML parser
-  const pinsRegex = /"mainContentObject":\{"id":"(\d+)","image":{"original":{"height":\d+,"width":\d+,"url":"([^"]+)"}/g;
-  const pins = [];
+function generateMockPins(query) {
+  // Mock image URLs (using placeholder images)
+  const mockUrls = [
+    'https://images.unsplash.com/photo-1517836357463-d25ddfcb53ef?w=300&h=400&fit=crop',
+    'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=300&h=400&fit=crop',
+    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&h=400&fit=crop',
+    'https://images.unsplash.com/photo-1517836357463-d25ddfcb53ef?w=300&h=400&fit=crop',
+    'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop',
+    'https://images.unsplash.com/photo-1489749798305-4fea3ba63d60?w=300&h=400&fit=crop'
+  ];
 
-  let match;
-  while ((match = pinsRegex.exec(html)) !== null) {
+  const pins = [];
+  for (let i = 0; i < 12; i++) {
     pins.push({
-      id: match[1],
-      imageUrl: match[2].replace(/\\/g, '')
+      id: `pin-${Date.now()}-${i}`,
+      imageUrl: mockUrls[i % mockUrls.length]
     });
   }
 
-  return pins.slice(0, 30); // Return first 30 pins
+  return pins;
 }
 
 module.exports = router;
