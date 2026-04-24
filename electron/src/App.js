@@ -4,19 +4,23 @@ import './App.css';
 function App() {
   const [folderPath, setFolderPath] = useState(null);
   const [images, setImages] = useState([]);
-  const [selectedCharacter, setSelectedCharacter] = useState('leah');
+  const [splitCount, setSplitCount] = useState({ leah: 10, catalina: 10, isabella: 10 });
   const [higgsFieldUrl, setHiggsFieldUrl] = useState('https://higgsfield.ai');
   const [loading, setLoading] = useState(false);
   const [progress, setProgress] = useState('');
+  const [showAdvanced, setShowAdvanced] = useState(false);
 
-  const characters = ['Leah', 'Catalina', 'Isabella'];
+  const characters = [
+    { key: 'leah', label: 'Leah', desc: 'Blonde Hair • Asian' },
+    { key: 'catalina', label: 'Catalina', desc: 'Black Hair • Latina' },
+    { key: 'isabella', label: 'Isabella', desc: 'Black Hair • Asian' }
+  ];
 
   const handleSelectFolder = async () => {
     try {
       const path = await window.electronAPI.selectFolder();
       if (path) {
         setFolderPath(path);
-        // Get images from folder
         const fs = require('fs');
         const fsPath = require('path');
         const files = fs.readdirSync(path);
@@ -38,7 +42,7 @@ function App() {
     }
 
     setLoading(true);
-    setProgress('Starting upload automation...');
+    setProgress('Starting automation...');
 
     try {
       const imagePaths = images.map(img => `${folderPath}/${img}`);
@@ -49,12 +53,12 @@ function App() {
 
       const result = await window.electronAPI.startUpload({
         imagePaths,
-        character: selectedCharacter,
+        splitCount,
         higgsFieldUrl
       });
 
       if (result.success) {
-        setProgress('✅ Upload completed successfully!');
+        setProgress('✅ All done! Check Higgsfield for your results.');
       } else {
         setProgress(`❌ Error: ${result.error}`);
       }
@@ -65,76 +69,124 @@ function App() {
     }
   };
 
+  const totalImages = splitCount.leah + splitCount.catalina + splitCount.isabella;
+  const imagesReady = images.length >= totalImages;
+
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>🤖 Picture Scrapper Automation</h1>
-        <p>Auto-upload reference images to Higgsfield</p>
-      </header>
-
       <div className="App-container">
-        <section className="section">
-          <h2>1. Select Folder</h2>
-          <button className="primary-btn" onClick={handleSelectFolder} disabled={loading}>
-            📁 Choose Folder from Desktop
-          </button>
-          {folderPath && (
-            <div className="info-box">
-              <p><strong>Selected:</strong> {folderPath}</p>
-              <p><strong>Images found:</strong> {images.length}</p>
-              {images.length > 0 && (
-                <div className="image-list">
-                  {images.map((img, i) => (
-                    <small key={i}>✓ {img}</small>
-                  ))}
+        {/* Header */}
+        <div className="header">
+          <h1>Picture Scrapper</h1>
+          <p>Automate Higgsfield generations across your characters</p>
+        </div>
+
+        {/* Step 1: Select Folder */}
+        <section className="card">
+          <div className="step-header">
+            <div className="step-number">1</div>
+            <div>
+              <h3>Select your images</h3>
+              <p className="step-desc">Choose a folder with reference photos</p>
+            </div>
+          </div>
+
+          {!folderPath ? (
+            <button className="btn-primary" onClick={handleSelectFolder} disabled={loading}>
+              Open Folder
+            </button>
+          ) : (
+            <div className="folder-info">
+              <div className="folder-path">
+                <span className="folder-icon">📁</span>
+                <div>
+                  <p className="path">{folderPath.split('/').pop()}</p>
+                  <p className="count">{images.length} images</p>
                 </div>
-              )}
+              </div>
+              <button className="btn-secondary" onClick={handleSelectFolder} disabled={loading}>
+                Change
+              </button>
             </div>
           )}
         </section>
 
-        <section className="section">
-          <h2>2. Select Character</h2>
-          <div className="character-select">
-            {characters.map(char => (
-              <button
-                key={char}
-                className={`char-btn ${selectedCharacter.toLowerCase() === char.toLowerCase() ? 'active' : ''}`}
-                onClick={() => setSelectedCharacter(char.toLowerCase())}
-                disabled={loading}
-              >
-                👤 {char}
-              </button>
-            ))}
-          </div>
-        </section>
+        {/* Step 2: Configure Split */}
+        {folderPath && (
+          <section className="card">
+            <div className="step-header">
+              <div className="step-number">2</div>
+              <div>
+                <h3>Distribute to characters</h3>
+                <p className="step-desc">How many images per character</p>
+              </div>
+            </div>
 
-        <section className="section">
-          <h2>3. Higgsfield URL</h2>
-          <input
-            type="text"
-            placeholder="https://higgsfield.ai"
-            value={higgsFieldUrl}
-            onChange={(e) => setHiggsFieldUrl(e.target.value)}
-            disabled={loading}
-            className="url-input"
-          />
-        </section>
+            <div className="split-grid">
+              {characters.map(char => (
+                <div key={char.key} className="split-item">
+                  <label>{char.label}</label>
+                  <p className="char-desc">{char.desc}</p>
+                  <div className="split-input-group">
+                    <button onClick={() => setSplitCount(s => ({ ...s, [char.key]: Math.max(0, s[char.key] - 1) }))} disabled={loading}>−</button>
+                    <input
+                      type="number"
+                      value={splitCount[char.key]}
+                      onChange={(e) => setSplitCount(s => ({ ...s, [char.key]: Math.max(0, parseInt(e.target.value) || 0) }))}
+                      disabled={loading}
+                    />
+                    <button onClick={() => setSplitCount(s => ({ ...s, [char.key]: s[char.key] + 1 }))} disabled={loading}>+</button>
+                  </div>
+                </div>
+              ))}
+            </div>
 
-        <section className="section">
+            <div className="split-summary">
+              <p>Total: <strong>{totalImages}</strong> generations from <strong>{images.length}</strong> images</p>
+              {!imagesReady && totalImages > images.length && (
+                <p className="warning">⚠️ You need {totalImages - images.length} more images</p>
+              )}
+            </div>
+          </section>
+        )}
+
+        {/* Step 3: Advanced Settings */}
+        {folderPath && (
+          <section className="card">
+            <button className="btn-link" onClick={() => setShowAdvanced(!showAdvanced)}>
+              {showAdvanced ? '▼' : '▶'} Advanced Settings
+            </button>
+
+            {showAdvanced && (
+              <div className="advanced-section">
+                <label>Higgsfield URL</label>
+                <input
+                  type="text"
+                  placeholder="https://higgsfield.ai"
+                  value={higgsFieldUrl}
+                  onChange={(e) => setHiggsFieldUrl(e.target.value)}
+                  disabled={loading}
+                />
+              </div>
+            )}
+          </section>
+        )}
+
+        {/* Start Button */}
+        {folderPath && (
           <button
-            className="upload-btn"
+            className="btn-primary btn-large"
             onClick={handleStartUpload}
-            disabled={loading || !folderPath || images.length === 0}
+            disabled={loading || !imagesReady}
           >
-            {loading ? '⏳ Running...' : '🚀 Start Upload & Generate'}
+            {loading ? '⏳ Processing...' : '🚀 Start Generation'}
           </button>
-        </section>
+        )}
 
+        {/* Progress */}
         {progress && (
-          <section className="section progress-section">
-            <h3>Status</h3>
-            <div className="progress-box">
+          <section className="card progress-card">
+            <div className="progress-content">
               {progress}
             </div>
           </section>

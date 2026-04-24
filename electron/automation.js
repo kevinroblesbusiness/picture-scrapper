@@ -36,7 +36,7 @@ function fixPromptForCharacter(prompt, character) {
   return fixedPrompt;
 }
 
-async function autoUploadToHiggsfield({ imagePaths, character, higgsFieldUrl, onProgress }) {
+async function autoUploadToHiggsfield({ imagePaths, splitCount, higgsFieldUrl, onProgress }) {
   let browser = null;
   try {
     onProgress(`Starting Higgsfield automation...`);
@@ -53,12 +53,25 @@ async function autoUploadToHiggsfield({ imagePaths, character, higgsFieldUrl, on
     await page.click('a:has-text("Image"), [href*="image"]');
     await page.waitForTimeout(2000);
 
-    // Process each image
-    for (let i = 0; i < imagePaths.length; i++) {
+    // Create character sequence based on split count
+    const characterSequence = [];
+    for (const [charKey, count] of Object.entries(splitCount)) {
+      for (let i = 0; i < count; i++) {
+        characterSequence.push(charKey);
+      }
+    }
+
+    onProgress(`\n📋 Plan:\n${characterSequence.map((c, i) => `  ${i + 1}. ${CHARACTERS[c].name}`).join('\n')}\n`);
+
+    // Process each image with its assigned character
+    for (let i = 0; i < Math.min(imagePaths.length, characterSequence.length); i++) {
       const imagePath = imagePaths[i];
+      const character = characterSequence[i];
       const fileName = path.basename(imagePath, path.extname(imagePath));
 
-      onProgress(`Processing image ${i + 1}/${imagePaths.length}: ${fileName}`);
+      onProgress(`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
+      onProgress(`${i + 1}/${characterSequence.length} | ${CHARACTERS[character].name}`);
+      onProgress(`${fileName}`);
 
       // Find prompt input field
       const promptInput = page.locator('textarea, input[placeholder*="prompt"], [contenteditable="true"]').first();
@@ -71,52 +84,48 @@ async function autoUploadToHiggsfield({ imagePaths, character, higgsFieldUrl, on
 
       // Clear and set new prompt
       await promptInput.click();
-      await promptInput.triple_click();
+      await promptInput.evaluate(el => el.value = '');
       await promptInput.type(fixedPrompt);
 
-      onProgress(`Prompt set to: "${fixedPrompt}"`);
-
       if (currentPrompt && currentPrompt !== fixedPrompt) {
-        onProgress(`⚠️ Updated hair color/ethnicity for ${character}`);
+        onProgress(`✏️ Updated prompt for ${CHARACTERS[character].name}`);
       }
 
       // Click Change button to select character
-      onProgress(`Selecting character: ${character}...`);
+      onProgress(`Selecting ${CHARACTERS[character].name}...`);
       const changeBtn = page.locator('button:has-text("Change")').first();
       await changeBtn.click();
-      await page.waitForTimeout(1000);
+      await page.waitForTimeout(800);
 
       // Select the character from the list
-      const charSelector = page.locator(`button:has-text("${CHARACTERS[character.toLowerCase()]}"), [aria-label*="${character}"]`).first();
+      const charName = CHARACTERS[character].name;
+      const charSelector = page.locator(`button:has-text("${charName}")`).first();
       await charSelector.click();
       await page.waitForTimeout(500);
 
-      onProgress('Character selected. Clicking Generate...');
+      onProgress(`Generating...`);
 
       // Click Generate button
       const generateBtn = page.locator('button:has-text("Generate")').first();
       await generateBtn.click();
 
-      // Wait for generation to complete (check for result image)
-      onProgress(`Generating... (this may take 30-60 seconds)`);
-
-      // Wait for generation to finish by checking if new images appear
+      // Wait for generation to complete
       try {
         await page.waitForSelector('img[src*="blob"], img[src*="cloudinary"]', { timeout: 120000 });
-        onProgress(`✅ Image ${i + 1} generated successfully!`);
+        onProgress(`✅ Done!`);
       } catch (e) {
-        onProgress(`⚠️ Image ${i + 1} generation may be processing...`);
+        onProgress(`⚠️ Still processing...`);
       }
 
-      await page.waitForTimeout(2000);
+      await page.waitForTimeout(1500);
     }
 
-    onProgress('✅ All images processed! Check Higgsfield for results.');
-    await page.waitForTimeout(3000);
+    onProgress(`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
+    onProgress('✅ All generations complete! Check Higgsfield.');
 
     return { message: 'Upload successful' };
   } catch (error) {
-    onProgress(`❌ Error: ${error.message}`);
+    onProgress(`\n❌ Error: ${error.message}`);
     if (browser) {
       await browser.close();
     }
