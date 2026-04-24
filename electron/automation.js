@@ -3,10 +3,38 @@ const fs = require('fs');
 const path = require('path');
 
 const CHARACTERS = {
-  leah: 'LEAH',
-  catalina: 'catalina',
-  isabella: 'isabella'
+  leah: { name: 'LEAH', hairColor: 'blonde hair', ethnicity: 'asian' },
+  catalina: { name: 'catalina', hairColor: 'black hair', ethnicity: 'latina' },
+  isabella: { name: 'isabella', hairColor: 'black hair', ethnicity: 'asian' }
 };
+
+const HAIR_COLOR_PATTERNS = ['blonde hair', 'black hair', 'brown hair', 'red hair', 'dark hair', 'light hair'];
+const ETHNICITY_PATTERNS = ['asian', 'latina', 'caucasian', 'african', 'middle eastern'];
+
+function fixPromptForCharacter(prompt, character) {
+  const charInfo = CHARACTERS[character.toLowerCase()];
+  if (!charInfo) return prompt;
+
+  let fixedPrompt = prompt;
+  const expectedHair = charInfo.hairColor;
+  const expectedEthnicity = charInfo.ethnicity;
+
+  // Replace any hair color with correct one
+  const hairRegex = new RegExp(HAIR_COLOR_PATTERNS.join('|'), 'gi');
+  fixedPrompt = fixedPrompt.replace(hairRegex, expectedHair);
+
+  // If no hair color mentioned, add it
+  if (!fixedPrompt.match(hairRegex)) {
+    fixedPrompt = `${expectedHair} ${expectedEthnicity} ${fixedPrompt}`.trim();
+  }
+
+  // Ensure ethnicity is mentioned if not already
+  if (!fixedPrompt.match(new RegExp(ETHNICITY_PATTERNS.join('|'), 'i'))) {
+    fixedPrompt = `${fixedPrompt} ${expectedEthnicity}`.trim();
+  }
+
+  return fixedPrompt;
+}
 
 async function autoUploadToHiggsfield({ imagePaths, character, higgsFieldUrl, onProgress }) {
   let browser = null;
@@ -35,15 +63,22 @@ async function autoUploadToHiggsfield({ imagePaths, character, higgsFieldUrl, on
       // Find prompt input field
       const promptInput = page.locator('textarea, input[placeholder*="prompt"], [contenteditable="true"]').first();
 
-      // Clear existing prompt
-      await promptInput.click();
-      await promptInput.evaluate(el => el.value = '');
-      await promptInput.evaluate(el => el.textContent = '');
+      // Get current prompt from the field
+      const currentPrompt = await promptInput.inputValue().catch(() => '');
 
-      // Type prompt (use filename as prompt, or you can customize)
-      const prompt = fileName.replace(/[-_]/g, ' ');
-      await promptInput.type(prompt);
-      onProgress(`Typed prompt: "${prompt}"`);
+      // Fix prompt for character (auto-detect and change hair color if needed)
+      const fixedPrompt = fixPromptForCharacter(currentPrompt || fileName.replace(/[-_]/g, ' '), character);
+
+      // Clear and set new prompt
+      await promptInput.click();
+      await promptInput.triple_click();
+      await promptInput.type(fixedPrompt);
+
+      onProgress(`Prompt set to: "${fixedPrompt}"`);
+
+      if (currentPrompt && currentPrompt !== fixedPrompt) {
+        onProgress(`⚠️ Updated hair color/ethnicity for ${character}`);
+      }
 
       // Click Change button to select character
       onProgress(`Selecting character: ${character}...`);
