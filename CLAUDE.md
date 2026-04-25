@@ -100,3 +100,40 @@ When generating an original prompt (not based on a reference image):
 Approved prompts are saved in: `prompts/YYYY-MM-DD/edited/`
 Raw inputs are saved in: `prompts/YYYY-MM-DD/raw/`
 Only save after user confirms a prompt is good.
+
+---
+
+## Memory — Running Session Log
+This section is updated continuously. Every session, read this first to pick up exactly where we left off.
+
+### Project Context
+- Business: nail polish brand using Hicks Field AI to generate model images
+- Goal: 30 approved images per day
+- Workflow: upload reference image → Hicks Field generates text prompt → we edit it → generate image
+- Long-term goal: build a custom prompt generator trained on our input/output pairs
+
+### What Works
+- **Moody late night settings** hit hard — gas station neon/fluorescent mix was the first 8/10
+- **Sex appeal sweet spot**: smoldering expression, fitted silhouette, skin showing at midriff — not overdone
+- Specificity wins: "all five toes visible on each foot" prevents bad AI outputs
+- "The photo appears to be captured with a smartphone" adds authenticity every time
+- Targeting 18-25 Gen Z trends specifically outperforms generic fashion prompts
+
+### What Flopped
+- Generic rooftop/blazer combos felt too polished and safe — rated 5/10
+- Overly editorial or high-fashion prompts don't match the brand's Instagram feel
+
+### Approved Original Prompts (AI-Generated, Not From Reference)
+| File | Character | Scene | Rating |
+|------|-----------|-------|--------|
+| leah_03_approved.txt | Leah | Late night gas station, black sports car, halter crop + leather mini skirt | 8/10 |
+
+### Rules Added Over Time
+- 2026-04-25: Added "full face of makeup" to all prompts
+- 2026-04-25: Added "5 toes each foot" after AI was generating wrong toe counts
+- 2026-04-25: Only save prompts user explicitly approves — never log on assumption
+
+### Next Steps
+- Keep building approved prompt library toward 30/day target
+- After enough input/output pairs, build prompt generator using Claude API
+- Each new day: update trend research before generating anything
