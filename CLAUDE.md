@@ -17,6 +17,11 @@
 | `brain/trends/outfits.md` | All outfit options by category |
 | `brain/trends/makeup.md` | All makeup combos — what's proven, what's trending |
 | `brain/trends/accessories.md` | Accessories, shoes, and poses |
+| `brain/memory/patterns.md` | Approved combos + patterns noticed across sessions |
+| `brain/memory/insights.md` | Important things captured from conversation |
+| `brain/memory/reminders.md` | Check-in triggers — read after each approval |
+| `brain/memory/sessions/YYYY-MM-DD.md` | Per-session logs |
+| `brain/ideas/unused_prompts.md` | Ready-to-use prompt ideas per character |
 
 ## Project Context
 - Nail polish brand, 30 approved images/day goal
