@@ -201,7 +201,7 @@ This section is updated continuously. Every session, read this first to pick up 
 ### Character Notes
 - **Leah**: moody, edgy, night settings work great — leans dark/sexy
 - **Catalina**: golden hour, warm romantic settings, slinky feminine dresses — leans soft/sexy
-- **Isabella**: needs more testing — avoid overly elegant outfits, lean into fitted/edgy Gen Z looks with attitude
+- **Isabella**: Kuromi energy — dark kawaii baddie. Black outfits always, not emo/goth but dark cute with attitude. Think black vinyl mini skirts, black corset or crop tops, cute black bows or accessories with pink/lavender accents. Makeup: bold dark liner but glossy pink or lavender lip for that cute-edgy contrast. Settings: neon-lit city at night, convenience stores, mall corridors, arcades, urban spots with edge.
 
 ### Approved Original Prompts (AI-Generated, Not From Reference)
 | File | Character | Scene | Rating |
