@@ -62,37 +62,108 @@ When generating an original prompt (not based on a reference image):
 
 ### Current Trends (April 2026) — Ages 18-25
 
-**Outfits & Aesthetics**
-- Y2K revival — low-rise light wash denim, spaghetti strap layering, pastel colorways
-- Coquette — lace, bows, feminine details, soft colors
-- Bootcut and slim-flare jeans replacing baggy fits
-- Fitted satin or cut-out mini dresses for going-out looks
+**Outfit Aesthetics — Full List**
+- Y2K / 2010s revival — low-rise light wash denim, spaghetti strap layering, pastel colorways, cropped everything
+- Coquette — lace, bows, ballet core, soft pinks, delicate and feminine
+- Ballet core — flowy, soft, pastel, barely-there makeup, light and airy
+- Slinky / slouchy silhouettes — off-shoulder, dropped waist, bodycon, '00s energy
+- Vintage '90s — straight-leg jeans, slim leather jackets, cowboy boots, slinky scarves
+- Office siren — 90s corporate chic, blazers, pencil skirts, loafers
+- Tech noir minimalism — dark palettes, sharp tailoring, monochrome, metal accents
+- Bootcut / slim-flare jeans with pointed-toe heels
+- Heavy layering with mixed textures
+- Rejection of "clean girl" — maximalism, handmade touches, textured fabrics
 - Crop tops, ribbed tanks, halter tops showing midriff
-- Low-rise leather or mini skirts
+- Low-rise leather or vinyl mini skirts
 - Lace layered under blazers or denim jackets
-- Chunky layered gold or silver jewelry, beaded necklaces
-- Small vibrant or satin mini bags with chain straps
-- Bug-eyed tinted sunglasses
+- Cut-out mini dresses — satin, bodycon, going-out looks
+- Athleisure 2.0 — sleek monochrome, ribbed sets, crossbody belt bags
 
-**Settings & Locations**
-- Late night gas stations (neon + fluorescent moody lighting — very trending)
+**Settings & Locations — Full List**
+- Late night gas stations — neon + fluorescent moody lighting (proven 8/10)
 - Rooftop bars at golden hour
+- Cobblestone European-style alleys — warm stone walls, string lights, arched doorways
 - Pastel boutique storefronts
-- Car hood / leaning against luxury cars
-- Urban mural walls
-- City sidewalks with strong natural light
+- Luxury hotel corridors / lobbies
+- Car hood / leaning against luxury or sports cars
+- Urban mural / graffiti walls
+- City sidewalks and crosswalks with strong natural light
+- Turquoise pool / resort / cliffside ocean
+- Cozy café interior with floor-to-ceiling windows
+- Forest trail / dappled nature light
+- Long indoor corridors (mall, hotel, airport)
+- Designer storefront windows
+- Rooftop pool at dusk
+- Spring flower market / outdoor botanical setting
+
+**Makeup — Full List**
+- Frosted / icy pink lips — Y2K comeback, major trend
+- Cloud lips — soft blurred edges, muted rose to deep berry
+- Ballet core — barely-there glossy tint, pink flush cheeks, light lashes
+- Bold colorful graphic eyes — bright liner, bold sweeps of pigment
+- Holographic / opalescent / cosmic eyeshadow
+- Frosted blue icy eyeshadow with cool-toned liner — very trending
+- Statement blush — vibrant, placed high on cheekbones
+- Breathable glowy natural skin — "skin moving and showing through"
+- Smudged smoky liner — proven in approved prompt
+- Overlined glossy nude lip — proven crowd pleaser
+- Sharp sculpted contour with dewy or matte base
+
+**Accessories — Full List**
+- Oversized cuffs, chunky bracelets stacked
+- Layered chunky gold or silver necklaces
+- Bold stacked rings
+- XXL oversized tote bags and structured open-top bags
+- Beaded / embellished bags (Loewe, Gucci runway)
+- Small baguette bags in Y2K pastels
+- Chain-strap mini satin clutches
+- Colorful resin or beaded necklaces — gemstone pendants
+- Rhinestone-studded or shield sunglasses — oversized sculptural frames
+- Bug-eyed tinted sunglasses (Gen Z early 2000s revival)
+- Delicate gold anklets
+- Thin diamond or crystal chokers
+- Statement sculptural earrings
+
+**Shoes — Full List**
+- Strappy barely-there heeled sandals (silver, nude, black, white)
+- Strappy pointed-toe heeled sandals
+- Strappy flat sandals (beach / resort settings)
+- Gold heeled sandals
+- Cowboy boots (with mini skirts or denim)
+- Loafer-boot hybrids (emerging)
+- Moto boots with slim-flare jeans
+- TikTok fluffy sandals / trendy flat slides (casual home-adjacent outdoor)
+
+**Poses — Full List**
+- Lazy lean — back against wall, car, or fence, slightly slouched, arms loose
+- One hand on hip, weight shifted — confident and classic
+- Hands in pockets — laid-back, versatile, streetwear energy
+- Walking toward camera — motion, candid, editorial
+- Sitting on steps or curb — casual and relatable
+- Leaning on car hood — both palms back, legs crossed at ankle (proven 8/10)
+- Head hold — hands on head, fingers through hair, or cradling face
+- Hair adjustment — hands raised adjusting ponytail or touching hair
+- Jumping / mid-air — playful, energetic
+- Looking off-camera — relaxed, off-duty, effortless
+- Direct smoldering gaze — confident, sexy, editorial
 
 **Photo Style**
-- Smartphone captured, candid feel
-- Moody, slightly underexposed with natural grain
-- Lazy lean, one hand on hip, slight smize — confident poses
-- Looking slightly off-camera or directly into lens with smoldering expression
-- Raw and authentic over heavily edited
+- Smartphone captured, candid and authentic feel — always include this line
+- Moody, slightly underexposed with natural digital grain — night shots
+- Golden hour warm directional glow — outdoor daytime
+- Neon + fluorescent cool-blue mix — night/gas station
+- Bright even natural spring daylight — boutique/street
+- Slightly low angle — elongates figure
+- Raw, unpolished, real — outperforms over-produced content
+- 2016 nostalgic pink-hued warmth — throwback filter feel
 
 **Lighting**
-- Golden hour warm glow
-- Neon + fluorescent mix for night shots
-- Bright natural spring daylight for daytime shots
+- Golden hour — amber, warm, directional
+- Neon + fluorescent — blue-tinted fill + warm amber reflections
+- Natural spring daylight — even, bright, minimal shadow
+- String lights bokeh — European alley / rooftop ambiance
+- Café window light — soft, diffused, morning glow
+- Pool / resort — bright sun, reflections off water
 
 ---
 
