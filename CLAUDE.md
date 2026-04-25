@@ -189,10 +189,19 @@ This section is updated continuously. Every session, read this first to pick up 
 - Specificity wins: "all five toes visible on each foot" prevents bad AI outputs
 - "The photo appears to be captured with a smartphone" adds authenticity every time
 - Targeting 18-25 Gen Z trends specifically outperforms generic fashion prompts
+- **European alley + golden hour + slinky ruched mini dress** = 8/10 for Catalina
+- Walking toward camera pose feels candid and editorial — works well
+- Ballet core makeup (pink flush, cloud lip, dewy skin) photographed well on Catalina
 
 ### What Flopped
 - Generic rooftop/blazer combos felt too polished and safe — rated 5/10
 - Overly editorial or high-fashion prompts don't match the brand's Instagram feel
+- **Isabella hotel steps prompt** — pose was good, outfit killed it. Corset top + wide-leg trousers felt too formal/safe, not enough edge or sex appeal. Isabella needs outfits with more attitude — fitted, skin-showing, Gen Z energy, not elegant/polished.
+
+### Character Notes
+- **Leah**: moody, edgy, night settings work great — leans dark/sexy
+- **Catalina**: golden hour, warm romantic settings, slinky feminine dresses — leans soft/sexy
+- **Isabella**: needs more testing — avoid overly elegant outfits, lean into fitted/edgy Gen Z looks with attitude
 
 ### Approved Original Prompts (AI-Generated, Not From Reference)
 | File | Character | Scene | Rating |
@@ -204,8 +213,10 @@ This section is updated continuously. Every session, read this first to pick up 
 - 2026-04-25: Added "full face of makeup" to all prompts
 - 2026-04-25: Added "5 toes each foot" after AI was generating wrong toe counts
 - 2026-04-25: Only save prompts user explicitly approves — never log on assumption
+- 2026-04-25: Never log unapproved outputs even if they seemed close
 
 ### Next Steps
+- Nail down an 8/10 for Isabella — try edgier outfit (crop top + low-rise mini skirt, or cut-out dress) with attitude
 - Keep building approved prompt library toward 30/day target
 - After enough input/output pairs, build prompt generator using Claude API
-- Each new day: update trend research before generating anything
+- Each new day: reread CLAUDE.md fully, update trend research before generating anything
