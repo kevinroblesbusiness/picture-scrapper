@@ -198,6 +198,7 @@ This section is updated continuously. Every session, read this first to pick up 
 | File | Character | Scene | Rating |
 |------|-----------|-------|--------|
 | leah_03_approved.txt | Leah | Late night gas station, black sports car, halter crop + leather mini skirt | 8/10 |
+| catalina_03_approved.txt | Catalina | Cobblestone European alley, golden hour, ivory ruched off-shoulder mini dress, ballet core makeup | 8/10 |
 
 ### Rules Added Over Time
 - 2026-04-25: Added "full face of makeup" to all prompts
