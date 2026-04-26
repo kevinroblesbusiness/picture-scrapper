@@ -7,9 +7,11 @@
 ---
 
 ## The Aesthetic (match this every time)
-Gen Z LA creator. 18-25. Real life, not editorial. Think Pinterest baddie — mirror selfies, simple room, fitted outfit, body-conscious pose. NOT a fashion ad. NOT a magazine shoot. A hot girl posting from her phone.
+Gen Z LA creator. 18-25. Candid. Taken in the moment. NOT posed, NOT a photoshoot, NOT a fashion ad. A hot girl caught on camera — mid-laugh, adjusting her hair, looking away, not performing for the lens.
 
-Reference energy: Sophie Rain, Addison Rae, Charli D'Amelio — casual, candid, sex appeal without trying too hard.
+Reference energy: Sophie Rain, Addison Rae, Charli D'Amelio — real, in-the-moment, sex appeal without trying too hard.
+
+**Every prompt must feel like someone just caught the shot.** Use candid language: mid-laugh, looking to the side, caught off guard, adjusting her top, glancing down, turning when called, not aware of the camera.
 
 ---
 
