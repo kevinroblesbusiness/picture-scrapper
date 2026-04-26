@@ -24,6 +24,10 @@
 | `brain/memory/tracker_leah.md` | Leah — settings, outfits, jewelry, makeup, hair, poses used |
 | `brain/memory/tracker_catalina.md` | Catalina — settings, outfits, jewelry, makeup, hair, poses used |
 | `brain/memory/tracker_isabella.md` | Isabella — settings, outfits, jewelry, makeup, hair, poses used |
+| `brain/scheduling/settings_pool.md` | All settings with IDs — master pool, scalable to 50 models |
+| `brain/scheduling/rotation_rules.md` | Rules for rotating settings across models and days |
+| `brain/scheduling/daily_schedule.md` | Today's setting assignments — update each session |
+| `brain/models/registry.md` | All active models + template for adding new ones |
 | `brain/memory/sessions/` | Per-session logs |
 | `brain/ideas/unused_prompts.md` | Ready-to-use ideas per character |
 
