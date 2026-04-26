@@ -1,4 +1,10 @@
 # Universal Rules
+
+## Model Usage — Cost Optimization
+- **Haiku** → file reads, tracker updates, git ops, running scripts, session brief, logging
+- **Sonnet** → prompt generation, trend research, creative work, feedback analysis, memory updates
+- Default: spawn Haiku subagents for anything mechanical. Keep Sonnet for thinking.
+
 - Full body shot
 - Full face of makeup
 - White nail polish, all five toes visible on each foot
