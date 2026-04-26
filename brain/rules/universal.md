@@ -1,5 +1,8 @@
 # Universal Rules — Apply to Every Single Prompt
 
+## Output Format
+- Always wrap the final prompt in a code block so it's one-tap copy on mobile
+
 - Full body shot — always, no exceptions
 - Full face of makeup — always specified
 - White nail polish — always on toes
