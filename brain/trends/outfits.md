@@ -1,34 +1,6 @@
-# Trending Outfits & Styles
-
-## Tops
-- Spaghetti strap crop top (layered or solo)
-- Ribbed halter crop top
-- Off-shoulder slinky top
-- Black corset / boning detail crop
-- Fitted long-sleeve ribbed crop
-- Lace cami layered under blazer or denim jacket
-
-## Bottoms
-- Low-rise light wash bootcut jeans
-- High-waisted pleated mini skirt (black or colored)
-- Low-rise black leather / vinyl mini skirt
-- Slim-flare jeans with pointed-toe heels
-- High-waisted wide-leg trousers (soft drape)
-- Low-rise cargo pants
-
-## Full Looks / Dresses
-- Slinky off-shoulder ruched mini dress — proven 8/10 (Catalina)
-- Satin cut-out mini dress — going-out
-- Fitted bodycon ribbed mini dress
-- Slinky slip-style mini dress
-
-## Outerwear
-- Oversized denim jacket draped over shoulders
-- Slim leather jacket
-- Oversized blazer open-front
-
-## Color Palettes That Work
-- Black + silver + pink — Isabella
-- Ivory / cream / terracotta / warm gold — Catalina
-- Charcoal / black / neon — Leah
-- Light wash denim + pastel — Y2K general
+# Outfits
+**Tops:** Spaghetti strap crop | ribbed halter crop | off-shoulder slinky | black corset crop | fitted long-sleeve ribbed crop | lace cami under blazer/denim
+**Bottoms:** Low-rise light wash bootcut jeans | high-waist pleated mini | low-rise leather mini | slim-flare jeans | high-waist wide-leg trousers | low-rise cargo pants
+**Dresses:** Slinky off-shoulder ruched mini (proven 8/10) | satin cut-out mini | bodycon ribbed mini | slip-style mini
+**Outerwear:** Oversized denim jacket | slim leather jacket | open blazer
+**Palettes:** Black+silver+pink (Isabella) | ivory/cream/terracotta/gold (Catalina) | charcoal/black/neon (Leah) | light wash denim+pastel (Y2K)

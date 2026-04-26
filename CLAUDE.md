@@ -1,31 +1,30 @@
 # Hicks Field AI — Master Index
 
-## READ THIS EVERY SESSION
-1. Check `brain/trends/current.md` — if date is not today, update trends before anything else
-2. Read the character file for whoever you're generating for
-3. Always apply `brain/rules/universal.md`
+## Every Session
+1. `brain/trends/current.md` — date check, update if needed
+2. Character file for whoever we're generating for
+3. `brain/rules/universal.md` — always
 
-## Brain Structure
-| File | What's In It |
-|------|-------------|
-| `brain/rules/universal.md` | Rules that apply to every single prompt |
-| `brain/characters/leah.md` | Leah's vibe, what works, what flopped, approved prompts |
-| `brain/characters/catalina.md` | Catalina's vibe, what works, what flopped, approved prompts |
-| `brain/characters/isabella.md` | Isabella's vibe, what works, what flopped, approved prompts |
-| `brain/trends/current.md` | Top aesthetics right now — update daily |
-| `brain/trends/settings.md` | All settings/locations — proven and untested |
-| `brain/trends/outfits.md` | All outfit options by category |
-| `brain/trends/makeup.md` | All makeup combos — what's proven, what's trending |
-| `brain/trends/accessories.md` | Accessories, shoes, and poses |
-| `brain/memory/patterns.md` | Approved combos + patterns noticed across sessions |
-| `brain/memory/insights.md` | Important things captured from conversation |
-| `brain/memory/reminders.md` | Check-in triggers — read after each approval |
-| `brain/memory/sessions/YYYY-MM-DD.md` | Per-session logs |
-| `brain/ideas/unused_prompts.md` | Ready-to-use prompt ideas per character |
+## Brain
+| File | Contents |
+|------|----------|
+| `brain/rules/universal.md` | Rules for every prompt |
+| `brain/characters/leah.md` | Leah — vibe, works, flopped, approved |
+| `brain/characters/catalina.md` | Catalina — vibe, works, flopped, approved |
+| `brain/characters/isabella.md` | Isabella — vibe, works, flopped, approved |
+| `brain/trends/current.md` | Current aesthetics — update daily |
+| `brain/trends/settings.md` | Locations — proven + untested |
+| `brain/trends/outfits.md` | Outfits by category |
+| `brain/trends/makeup.md` | Makeup combos — proven + trending |
+| `brain/trends/accessories.md` | Accessories, shoes, poses |
+| `brain/memory/patterns.md` | Approved combos + noticed patterns |
+| `brain/memory/insights.md` | Captured from conversation |
+| `brain/memory/reminders.md` | Check-in triggers |
+| `brain/memory/sessions/` | Per-session logs |
+| `brain/ideas/unused_prompts.md` | Ready-to-use ideas per character |
 
-## Project Context
-- Nail polish brand, 30 approved images/day goal
-- Workflow: Hicks Field AI generates text prompt from reference image → we edit it → generate
-- Long-term: build custom prompt generator from input/output pairs
-- Prompts saved in: `prompts/YYYY-MM-DD/raw/` and `prompts/YYYY-MM-DD/edited/`
-- Only save after user explicitly approves
+## Project
+- Nail polish brand | 3 pics/model/day (9 total) | post morning+afternoon+night
+- Workflow: reference image → Hicks Field prompt → edit → generate
+- Save to: `prompts/YYYY-MM-DD/raw/` and `prompts/YYYY-MM-DD/edited/`
+- Only save on explicit approval

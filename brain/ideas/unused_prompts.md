@@ -1,21 +1,19 @@
-# Prompt Ideas — Ready To Use
-
-Ideas I've thought of that haven't been tested yet. Pull from here when stuck or need variety.
+# Prompt Ideas — Unused
 
 ## Leah
-- Luxury hotel corridor at night — dark marble walls, warm sconce lighting, bodycon black dress, smoldering gaze walking toward camera
-- Rooftop pool at dusk — city lights below, black bikini top + high-waisted black shorts, leaning on railing
-- Inside a sleek modern elevator with mirrored walls — black mini dress, reflection in mirrors, direct gaze
-- City crosswalk at night, rain-slicked street — neon reflections on ground, leather jacket + mini skirt, walking toward camera
+- Hotel corridor at night — dark marble, warm sconces, bodycon black dress, walking toward camera
+- Rooftop pool dusk — city lights, black bikini top+high-waist shorts, leaning on railing
+- Elevator mirrored walls — black mini dress, reflection, direct gaze
+- Rain-slicked city crosswalk at night — neon reflections, leather jacket+mini, walking
 
 ## Catalina
-- Rooftop pool at golden hour — warm terracotta tiles, turquoise water, white slinky cover-up over swimsuit, strappy sandals
-- Spring flower market — pastel blooms surrounding her, ivory sundress, soft natural daylight, relaxed smile
-- Cozy café window seat — morning light, latte on table, soft knit crop + wide-leg pants, looking out window
-- Luxury hotel lobby — marble floors, floral arrangement, cream satin midi dress, golden hour through tall windows
+- Rooftop pool golden hour — terracotta tiles, turquoise water, white cover-up, strappy sandals
+- Spring flower market — pastel blooms, ivory sundress, natural daylight
+- Café window seat — morning light, latte, knit crop+wide-leg pants
+- Hotel lobby — marble floors, cream satin midi dress, golden hour through tall windows
 
 ## Isabella
-- Boba shop interior — clearly inside, pastel walls, black ribbed mini dress, black strappy heels, pink boba in hand, soft warm indoor light
-- Mall corridor — long indoor hallway, black pleated skirt + black crop, silver accessories, walking toward camera, store lights glowing behind her
-- Inside convenience store — clearly indoors, bright fluorescent, black outfit, pink lip, holding a snack, casual and candid
-- City sidewalk at dusk (not full night) — warm orange sky, black outfit, pink accessories, storefronts lit behind her through windows
+- Boba shop interior (clearly inside) — black ribbed mini, black heels, pink boba in hand, warm indoor light
+- Mall corridor (clearly inside) — black pleated skirt+crop, silver accessories, walking toward camera
+- Convenience store (clearly inside) — black outfit, pink lip, holding snack, fluorescent light
+- City sidewalk at dusk — warm orange sky, black outfit, pink accessories, storefronts lit behind through windows
