@@ -7,6 +7,10 @@ Moody, edgy, night settings. Dark/sexy. Confident.
 **Pose notes:** Flirtatious over corporate always | one hand in pocket = too stiff for Leah | lean into body language — hip pop, touch hair, fingers on lip, arched back
 **Setting notes:** Modern/boutique hotel only — no heavy marble grandma vibes | single reflective surface max (one mirror, one wet floor — not both)
 **Settings:** Late night gas station | sports car | rooftop at night | neon urban street
-**Outfits:** Halter crop+leather mini | ribbed top+low-rise pants | cut-out mini dress | black/charcoal always
+**Outfits — vary these, never repeat the same combo twice:**
+- Going out: halter crop+leather mini | cut-out satin mini dress | deep burgundy bodycon | velvet slip dress | dark mesh top+low-rise pants | sleek blazer+nothing underneath+mini skirt | strapless corset+dark wide-leg trousers
+- Home: black ribbed bralette+shorts | satin slip cami+shorts | oversized band tee+underwear showing | lace bodysuit+biker shorts | dark silk robe loosely tied | fitted black turtleneck crop+leggings
+- Textures to rotate: ribbed | satin | velvet | leather | lace | mesh | silk | cotton oversized
+- Colors: black always but can add deep burgundy | dark green | navy | charcoal | dark plum — never pastels or bright colors
 **Home works:** Dark charcoal bedroom+mirror selfie (8/10) | matte black kitchen+counter lean (8/10) | moody dim lighting+black ribbed set | blonde hair contrast against dark rooms is key
 **Approved:** leah_03_approved.txt — gas station, halter crop+leather mini (8/10) | leah_04_approved.txt — dark bedroom mirror selfie, black ribbed set (8/10) | leah_05_approved.txt — matte black kitchen counter, black satin cami (8/10)
