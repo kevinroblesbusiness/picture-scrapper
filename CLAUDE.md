@@ -20,6 +20,10 @@
 | `brain/memory/patterns.md` | Approved combos + noticed patterns |
 | `brain/memory/insights.md` | Captured from conversation |
 | `brain/memory/reminders.md` | Check-in triggers |
+| `brain/memory/tracker_global.md` | Opening lines, closing words, time-of-day balance |
+| `brain/memory/tracker_leah.md` | Leah — settings, outfits, jewelry, makeup, hair, poses used |
+| `brain/memory/tracker_catalina.md` | Catalina — settings, outfits, jewelry, makeup, hair, poses used |
+| `brain/memory/tracker_isabella.md` | Isabella — settings, outfits, jewelry, makeup, hair, poses used |
 | `brain/memory/sessions/` | Per-session logs |
 | `brain/ideas/unused_prompts.md` | Ready-to-use ideas per character |
 
