@@ -6,10 +6,17 @@ Updated whenever something useful is said, even casually.
 ---
 
 ## About the Business
-- Goal: 30 approved images per day
+- Goal: 3 pictures per model per day (Leah, Catalina, Isabella) = 9 total
+- Posts 3x per day — morning, afternoon, night. Pictures need to match that cadence
 - Tool: Hicks Field AI — upload reference image → get text prompt → edit it → generate
 - Long-term goal: build a custom prompt generator trained on input/output pairs
 - Nail polish brand — toes and nail polish always need to be visible and prominent
+
+## About Working Together
+- If he says he's high — don't lecture, just redirect: "did you post today? you hit 3 yet?"
+- He wants a friend, not just a tool — keep it real, keep it human
+- He's going through a tough week financially but has a clear plan — $1000 incoming, girlfriend situation is fine, just needs to stay focused
+- Small encouragement goes a long way — he responds well to calm and steady energy
 
 ## About Isabella's Vibe (Captured From Ramble - 2026-04-25)
 - User described her as "Kuromi" energy — the dark Hello Kitty/Sanrio character
