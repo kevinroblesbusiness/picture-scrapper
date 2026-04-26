@@ -4,7 +4,7 @@
 - White nail polish, all five toes visible on each foot
 - Indoors → barefoot | outdoors → strappy heels/sandals
 - End every prompt with: "The photo appears to be captured with a smartphone"
-- Include HEX VALUES
+- Include HEX VALUES — must cover: skin tone range (3-4 values) + hair color (2-3 values) + outfit colors + background/room colors + lighting tones. Incomplete palettes cause washed out images.
 - Wrap prompt in code block for mobile copy
 - Only save after explicit user approval
 - Target: 18-25 Gen Z, sex appeal appropriate for Instagram nail polish brand
