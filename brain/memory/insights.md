@@ -8,3 +8,4 @@
 **Prompt quality:** Spatial clarity critical — always separate subject location from background | sex appeal = midriff+fitted+smoldering, not overdone | smartphone line adds authenticity always
 
 **Prompt generator:** Build with Claude API when enough input/output pairs | auto-apply: character swap, footwear rule, toe/nail rule, makeup rule, spatial clarity
+**Mac automation:** Explore Claude computer use API or computer use demo (Docker) to automate full Hicks Field workflow — upload image, copy prompt, paste — once business is running smooth
