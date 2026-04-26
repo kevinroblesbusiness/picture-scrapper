@@ -3,22 +3,82 @@
 ## Model Usage — Cost Optimization
 - **Haiku** → file reads, tracker updates, git ops, running scripts, session brief, logging
 - **Sonnet** → prompt generation, trend research, creative work, feedback analysis, memory updates
-- Default: spawn Haiku subagents for anything mechanical. Keep Sonnet for thinking.
 
+---
+
+## The Aesthetic (match this every time)
+Gen Z LA creator. 18-25. Real life, not editorial. Think Pinterest baddie — mirror selfies, simple room, fitted outfit, body-conscious pose. NOT a fashion ad. NOT a magazine shoot. A hot girl posting from her phone.
+
+Reference energy: Sophie Rain, Addison Rae, Charli D'Amelio — casual, candid, sex appeal without trying too hard.
+
+---
+
+## Backgrounds That Work
+- **Mirror selfie** — bedroom, closet, or bathroom mirror. Real room visible behind (bed, TV, closet shelves, clothes). Phone in hand.
+- **Simple wall** — plain white, cream, or grey. Close to subject. Nothing elaborate.
+- **Mural wall** — colorful street mural fills background completely. No depth, no cityscape.
+- **Parking structure** — fluorescent overhead, concrete, geometric. Night or day.
+- **Car** — sitting in open car door, interior behind her. Night works great.
+- **Simple outdoor** — single wall, flower wall, plain building surface. Subject is the focus.
+
+## Backgrounds to AVOID
+- Wide street scenes → AI makes generic suburban plaza every time
+- Beverly Hills / luxury storefronts → reads 2019, not Gen Z
+- Lakes, parks, pools → goes CGI immediately
+- Any background requiring depth + architecture together
+
+---
+
+## Outfits That Work
+Simple. Fitted. Body-conscious. Not elaborate.
+- White fitted tank + black micro mini skirt
+- Crop top + micro shorts
+- Zip-up crop cardigan, nothing underneath or bralette showing
+- Lace tie-front crop + matching skirt
+- Fitted mini dress, solid color
+- Black crop + graphic/star print shorts
+- Bodysuit + mini skirt
+- Biker shorts + fitted crop
+
+## Outfits to AVOID
+- Cargo pants (reads chunky/old)
+- Blazers (too formal)
+- Linen / flowy anything (reads 30+)
+- Elaborate or busy fashion pieces
+
+---
+
+## Poses That Work
+Show the body. Never a mannequin.
+- **Mirror selfie** — phone held up, other hand on waist, slight arch, direct gaze
+- **Looking back** — body turned, looking over shoulder at camera, arch emphasized
+- **Crouching / kneeling** — one leg forward, arched back, looking up
+- **Hip pop** — weight on one leg, hand in hair or near face
+- **Mid-stride** — walking toward camera, natural, loose
+
+## Poses to AVOID
+- Standing straight, shoulders square
+- Hands in pockets
+- Arms crossed
+- Any pose that hides the waist or flattens the body
+
+---
+
+## Non-Negotiables
 - Full body shot
 - Full face of makeup
 - White nail polish, all five toes visible on each foot
-- Indoors → barefoot | outdoors → strappy heels/sandals
+- Indoors → barefoot | outdoors → strappy heeled sandals
 - End every prompt with: "The photo appears to be captured with a smartphone"
-- Include HEX VALUES — must cover: skin tone range (3-4 values) + hair color (2-3 values) + outfit colors + background/room colors + lighting tones. Incomplete palettes cause washed out images.
-- Wrap prompt in code block for mobile copy
+- HEX VALUES every prompt — skin tone (3-4) + hair (2-3) + outfit + background + lighting. Missing = washed out.
+- Wrap in code block for mobile copy
 - Only save after explicit user approval
-- Target: 18-25 Gen Z, sex appeal appropriate for Instagram nail polish brand
-- Max ONE reflective surface per prompt (wet floor OR mirror — never both, causes generation errors)
-- Poses: flirtatious over corporate — hip pop, touch hair, arched back, fingers near face
+- Max ONE reflective surface — mirror selfie counts, never add wet floor or second mirror
+- Must read clearly early 20s — Instagram AI flags anything that reads younger
 
-## Content Categories (Mix These Daily)
-- **Going out** — nightlife, restaurants, rooftops, streets (heels/sandals)
-- **Personal/home** — full body mirror selfies, bedroom, living room (barefoot, casual but cute)
-- **Active/wellness** — gym selfies, yoga mat, stretching, athleisure (barefoot or sneakers but toes visible)
-- Vibe for personal+active: influencer but human — authentic, not overly posed, real life feel
+---
+
+## Content Categories
+- **Home** — mirror selfie (bedroom/closet/bathroom), barefoot, casual-sexy
+- **Out** — mural wall, simple wall, parking structure, car — strappy heeled sandals
+- **Active** — gym mirror selfie, yoga mat by window, barefoot or athletic slides
