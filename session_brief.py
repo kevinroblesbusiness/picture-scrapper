@@ -26,18 +26,14 @@ def read(path):
 
 def approved_count():
     count = {"leah": 0, "catalina": 0, "isabella": 0}
-    edited_base = os.path.join(BASE, "prompts")
-    if not os.path.exists(edited_base):
+    edited = os.path.join(BASE, "prompts", TODAY, "edited")
+    if not os.path.exists(edited):
         return count
-    for day in os.listdir(edited_base):
-        edited = os.path.join(edited_base, day, "edited")
-        if not os.path.exists(edited):
-            continue
-        for f in os.listdir(edited):
-            if "approved" in f:
-                for char in count:
-                    if f.startswith(char):
-                        count[char] += 1
+    for f in os.listdir(edited):
+        if "approved" in f:
+            for char in count:
+                if f.startswith(char):
+                    count[char] += 1
     return count
 
 

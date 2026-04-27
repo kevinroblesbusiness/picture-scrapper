@@ -80,7 +80,7 @@ POST_SLOTS = ["morning", "afternoon", "night"]
 SLOT_CATEGORIES = {
     "morning":   ["HB", "HL", "HK", "HTH", "AG"],   # home / active
     "afternoon": ["AG", "OD", "ON"],                  # active / going out
-    "night":     ["ON", "OD", "ON"],                  # going out
+    "night":     ["ON", "OD"],                          # going out
 }
 
 # Active models

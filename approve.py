@@ -60,7 +60,7 @@ def update_character_file(character, filepath, setting_id, rating, description):
         print(f"⚠️  Character file not found: {char_file}")
         return
     fname = os.path.basename(filepath)
-    entry = f" | {fname} — {description} ({rating}/10)"
+    entry = f" | {fname} — {setting_id} — {description} ({rating}/10)"
     with open(char_file, "r") as f:
         content = f.read()
     if "**Approved:**" in content:
@@ -82,6 +82,9 @@ def update_tracker(character, setting_id):
         return
     with open(tracker_file, "r") as f:
         content = f.read()
+    if f"| ⬜ | {setting_id}" not in content:
+        print(f"⚠️  Setting {setting_id} not found in tracker — skipping tracker update")
+        return
     content = content.replace(f"| ⬜ | {setting_id}", f"| ✅ | {setting_id}")
     with open(tracker_file, "w") as f:
         f.write(content)
@@ -106,7 +109,8 @@ def git_commit(filepath, character, rating, description):
     msg = f"Save approved {character} prompt ({rating}/10)\n\n{description}\n\nhttps://claude.ai/code/session_01FrR5Hqoe44TXYTaaNVcHSC"
     subprocess.run(["git", "add", "-A"], cwd=BASE)
     subprocess.run(["git", "commit", "-m", msg], cwd=BASE)
-    subprocess.run(["git", "push", "-u", "origin", "claude/general-session-APXCU"], cwd=BASE)
+    branch = subprocess.run(["git", "branch", "--show-current"], capture_output=True, text=True, cwd=BASE).stdout.strip()
+    subprocess.run(["git", "push", "-u", "origin", branch], cwd=BASE)
 
 
 def run():
