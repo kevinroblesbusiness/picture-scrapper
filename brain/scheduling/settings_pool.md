@@ -15,6 +15,9 @@
 | HB06 | Bedroom, neon sign on wall | sign color varies |
 | HB07 | Bedroom, fairy lights strung on wall | density varies |
 | HB08 | Bedroom, floor mirror leaning against wall | outfit varies |
+| HB09 | Walk-in closet, hanging garments behind, single warm overhead spot | outfit varies |
+| HB10 | Hollywood-bulb vanity mirror, warm yellow bulb glow | makeup varies |
+| HB11 | Bed under crumpled white linen sheets, sun stripe through blinds | mood varies |
 
 ## Category: HOME — BATHROOM (HTH)
 | ID | Setting |
@@ -23,6 +26,7 @@
 | HTH02 | All-white bathroom, bright natural light |
 | HTH03 | Bathroom, steam/shower background blurred |
 | HTH04 | Double sink modern bathroom, marble countertop |
+| HTH05 | Pastel pink shower tile wall, frosted window light |
 
 ## Category: HOME — KITCHEN (HK)
 | ID | Setting |
@@ -31,6 +35,8 @@
 | HK02 | All-white kitchen, bright natural light |
 | HK03 | Modern kitchen, island counter, hanging lights |
 | HK04 | Kitchen, large window, golden morning light |
+| HK05 | Walk-in pantry, organized acrylic-jar shelf wall, soft daylight |
+| HK06 | Kitchen sink at single window, subway tile, morning light |
 
 ## Category: HOME — LIVING ROOM (HL)
 | ID | Setting |
@@ -48,6 +54,12 @@
 | AG03 | Gym, cable machines visible behind, dark aesthetic |
 | AG04 | Studio mirror, dance/pilates vibe, clean white |
 | AG05 | Outdoor yoga mat, natural setting |
+| AG06 | Reformer Pilates machine close-up, springs and straps, neutral wall |
+| AG07 | Sauna cedar plank wall, warm amber low light |
+| AG08 | Cold plunge stainless tub edge, cool blue spa light, dark wall |
+| AG09 | Boxing ring corner, red corner pad, ropes, single industrial overhead |
+| AG10 | Spin studio bike, dark room, single saturated neon wash on wall |
+| AG11 | Locker room mirror, blue lockers as repeating background, fluorescent |
 
 ## Category: GOING OUT — NIGHT (ON)
 | ID | Setting |
@@ -65,6 +77,15 @@
 | ON11 | Convenience store interior, fluorescent, bright |
 | ON12 | Parking structure, fluorescent, geometric concrete |
 | ON13 | Nightclub/lounge entrance, velvet rope, ambient glow |
+| ON14 | Photobooth interior, magenta tube lighting, velvet curtain backdrop |
+| ON15 | Omakase sushi counter, single warm pendant overhead, dark wood |
+| ON16 | Karaoke booth, velvet bench, TV screen glow, mirrored wall, disco ball |
+| ON17 | Dive bar bathroom, sticker-covered mirror, harsh single bulb, graffiti wall |
+| ON18 | Lounge interior, deep red velvet curtain wall, single red gel light |
+| ON19 | Warehouse rave, dense fog, single laser beam slicing through |
+| ON20 | Airport gate window seat at night, dark tarmac with runway light bokeh |
+| ON21 | Speakeasy tufted leather booth, single candle, dark wood paneling |
+| ON22 | Rooftop hot tub at night, heavy steam, distant city light bokeh |
 
 ## Category: GOING OUT — GOLDEN HOUR / DAY (OD)
 | ID | Setting |
@@ -80,7 +101,15 @@
 | OD09 | Urban mural wall, bright daylight |
 | OD10 | Forest trail, dappled natural light |
 | OD11 | Car exterior, golden hour street |
+| OD12 | Convertible passenger seat, reclined, sky and wind-blown hair, leather interior |
+| OD13 | Drive-thru window, leaning out car, paper bag in hand, golden hour side light |
+| OD14 | Tennis court chain-link fence close-up, racket over shoulder, late afternoon light |
+| OD15 | Pickleball court, blue/green court paint, paddle in hand, hard top-down sun |
+| OD16 | Tall manicured green hedge wall, hard noon light |
+| OD17 | Pink/peach LA stucco wall, single palm-frond shadow |
+| OD18 | Farmers market produce stand, dense fruit/flower wall, dappled light |
+| OD19 | Coffee shop espresso bar, cup in hand, blurred barista equipment, single pendant |
 
-## TOTAL SETTINGS: 46
+## TOTAL SETTINGS: 78
 ## Needed for 50 models x 3 posts: 150 — expand pool as model count grows
 ## Add 10+ new settings per 10 models added
