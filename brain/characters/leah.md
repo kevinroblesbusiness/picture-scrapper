@@ -4,7 +4,7 @@ Moody, edgy, dark/sexy. Confident. Night settings. Blonde against dark rooms is 
 
 ## Vibe
 Flirtatious over corporate. Hip pop, touch hair, fingers on lip, arched back. Smoldering gaze not stiff.
-Pinterest search: `blonde hot girl body night aesthetic` | `sexy dark moody girl mirror selfie` | `blonde babe black outfit neon` | `hot girl caught on camera night out`
+Pinterest search: `edgy girl night out LA candid` | `moody girl neon light portrait` | `hot girl dark room caught on camera` | `night out girl smoldering gaze` | `girl leaning against wall night neon` | `dark aesthetic girl body instagram`
 
 ## Works
 - Gas station neon+fluorescent (8/10)

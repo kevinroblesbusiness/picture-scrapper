@@ -4,7 +4,7 @@ Golden hour, warm romantic. Soft/sexy. Feminine and aspirational.
 
 ## Vibe
 Walking toward camera, hip pop, touching hair. Warm glowing skin in warm light.
-Pinterest search: `hot latina body golden hour` | `sexy latina girl outfit night out` | `latina babe candid warm light` | `cute latina influencer body instagram`
+Pinterest search: `girl golden hour candid caught` | `warm aesthetic girl LA summer` | `hot girl beach boardwalk sunset` | `girl looking back over shoulder golden light` | `cute girl kitchen morning candid` | `influencer girl natural light warm tone`
 
 ## Works
 - European alley + golden hour + ruched mini (8/10)
