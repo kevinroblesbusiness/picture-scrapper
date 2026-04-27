@@ -1,14 +1,36 @@
 # Isabella
 **Young black-haired Asian woman — long straight black hair, sleek center part**
-Kuromi energy. Dark kawaii baddie. Black is her default but graphic tees, color accents, and mixed fits work. Cute+edgy NOT emo/scary.
+Kuromi energy. Dark kawaii baddie. Cute+edgy, NOT emo/scary.
 
-**Works:** Black pleated mini+halter crop | bubblegum pink lip (contrast against black) | thin silver chains+hoops | dewy skin+soft pink shimmer+thin precise liner | graphic tees with color text (9/10) | pink accessories+phone case | living room LED setup
-**Flopped:** Corset+wide-leg trousers (too elegant) | heavy dark eye makeup (went scary) | ambiguous indoor/outdoor settings (arcade machines floated outside)
-**Rules:** NO bows | NO heavy liner | NO vinyl | always pink accent (lip/bag/accessory) | settings must be spatially clear
-**Settings:** City sidewalk at night (storefronts behind, through windows) | boba shop interior | mall corridor | rooftop at night | inside convenience store
-**Outfits — vary these, never repeat the same combo twice:**
-- Going out: pleated black mini+halter crop | black bodycon dress | black off-shoulder top+mini skirt | black sheer top+bralette+mini skirt | black mini dress with cut-out detail | black corset+straight leg pants
-- Home: black oversized tee+black biker shorts | black sports bra+black leggings | black satin cami+shorts | black ribbed lounge set | black lace bodysuit+shorts | black crop hoodie+tiny shorts
-- Textures to rotate: pleated | satin | ribbed | lace | sheer | cotton oversized | velvet | knit
-- Always black — vary with silver hardware | pink lip/bag/accessory | chrome accents | white nail polish (always)
-**Approved:** None yet — working on first 8/10
+## Vibe
+Black base always, pink accent always. Dewy skin, soft shimmer, thin precise liner, bubblegum lip.
+Pinterest search: `dark kawaii baddie aesthetic 2026` | `black outfit pink aesthetic girl photo dump`
+
+## Works
+- Black pleated mini + halter crop
+- Bubblegum pink lip contrast against black (signature)
+- Thin silver chains + small hoops
+- Dewy skin + soft pink shimmer + thin precise liner
+- Graphic tees with color text (9/10)
+- Pink accessories + phone case
+- Living room LED setup, dive bar bathroom mirror, warehouse rave fog
+
+## Flopped
+- Corset + wide-leg trousers (too elegant)
+- Heavy dark eye makeup (went scary)
+- Ambiguous indoor/outdoor settings
+
+## Rules
+- **Black always** — vary silhouette, texture, cut
+- **Pink accent always** — lip, bag, or accessory every shot
+- NO bows | NO heavy liner | NO vinyl
+- Settings must be spatially clear
+
+## Outfits
+Use `python3 outfit_gen.py isabella <going_out|home|active>`
+
+## Makeup
+Dewy + soft pink shimmer + thin precise liner + bubblegum gloss (signature) | natural base + glossy pink lip
+
+## Approved
+- None yet
