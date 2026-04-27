@@ -5,6 +5,11 @@
 2. Character file for whoever we're generating for
 3. `brain/rules/universal.md` — always
 
+## Every Generation Batch
+1. Run `python3 outfit_gen.py <character> <category>` — always, every time, don't ask Kevin
+2. Search Pinterest for real photo inspiration before writing prompts — required, no exceptions
+3. Base every prompt on real photo energy pulled from actual influencer content
+
 ## Brain
 | File | Contents |
 |------|----------|

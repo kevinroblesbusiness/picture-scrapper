@@ -6,6 +6,14 @@
 
 ---
 
+## Pinterest Research — REQUIRED Before Every Batch
+Search Pinterest before generating for each model. Pull real photo energy — setting, pose, lighting, mood — from actual influencer content. Prompts must feel like they're recreating a real photo, not imagined from scratch.
+- Search: `pinterest [character vibe] 2026 gen z photo dump` or `pinterest [setting] aesthetic girl candid`
+- Extract: how the background is framed, where the light hits, what the pose actually looks like in real life
+- Translate that directly into the prompt language
+
+---
+
 ## The Aesthetic (match this every time)
 Gen Z LA creator. 18-25. Candid. Taken in the moment. NOT posed, NOT a photoshoot, NOT a fashion ad. A hot girl caught on camera — mid-laugh, adjusting her hair, looking away, not performing for the lens.
 
