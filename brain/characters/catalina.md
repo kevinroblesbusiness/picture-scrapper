@@ -9,11 +9,15 @@ Pinterest search: `hot latina body golden hour` | `sexy latina girl outfit night
 ## Works
 - European alley + golden hour + ruched mini (8/10)
 - Rooftop restaurant night + string lights + terracotta (8/10)
+- Beach boardwalk sunset + coral off-shoulder + orange lace mini + woven tote (10/10)
+- Kitchen sink window + white tank + camel ribbed shorts (10/10)
+- Convertible seat + white cowl-neck crop + ivory midi skirt (10/10)
 - Ballet core makeup: pink flush, cloud lip, dewy skin
 - Ivory/cream/terracotta palette
 - String lights bokeh, candlelit exterior (7/10)
 - Pink stucco wall + palm shadow
 - Hollywood vanity mirror, rooftop hot tub night
+- **Key pose**: body turned, looking back over shoulder, slight arch, hair loose — this is the money shot
 
 ## Flopped
 - Pool/resort backgrounds (5/10 — CGI immediately)
