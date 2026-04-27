@@ -2,8 +2,9 @@
 
 ## Workflow — Every Batch
 1. Run `python3 outfit_gen.py <character> <category>` — always first, no exceptions
-2. Search Pinterest for real photo inspiration before writing — required every time
-3. Base every prompt on real photo energy: framing, light, pose from actual influencer content
+2. Search Pinterest using character-specific search terms (in each character file) — no filters, pull the most visually compelling/sexy content available
+3. Pull 3-5 real photo references, mash together the best elements: this one's lighting, that one's pose, this one's framing
+4. Base every prompt on real photo energy — recreating an actual shot, not imagining one
 
 ## Model Usage
 - **Haiku** → file reads, git ops, running scripts, logging

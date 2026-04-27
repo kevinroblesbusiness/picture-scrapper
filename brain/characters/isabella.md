@@ -4,7 +4,7 @@ Kuromi energy. Dark kawaii baddie. Cute+edgy, NOT emo/scary.
 
 ## Vibe
 Black base always, pink accent always. Dewy skin, soft shimmer, thin precise liner, bubblegum lip.
-Pinterest search: `dark kawaii baddie aesthetic 2026` | `black outfit pink aesthetic girl photo dump`
+Pinterest search: `asian hot girl black outfit baddie` | `sexy dark girl body photo dump` | `cute baddie body mirror selfie black` | `hot girl black mini skirt night out`
 
 ## Works
 - Black pleated mini + halter crop
