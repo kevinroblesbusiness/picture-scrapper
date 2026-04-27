@@ -43,10 +43,9 @@ Simple. Fitted. Body-conscious. Not elaborate.
 - Biker shorts + fitted crop
 
 ## Outfits to AVOID
-- Cargo pants (reads chunky/old)
-- Blazers (too formal)
-- Linen / flowy anything (reads 30+)
 - Elaborate or busy fashion pieces
+- Muted/desaturated colors on Catalina (dusty rose, mauve, beige = grandma)
+- Wide-leg trousers on Isabella (too elegant, flopped)
 
 ---
 
