@@ -81,6 +81,25 @@
 | OD10 | Forest trail, dappled natural light |
 | OD11 | Car exterior, golden hour street |
 
-## TOTAL SETTINGS: 46
+## Category: GOING OUT — NIGHT EXPANDED (ON)
+| ID | Setting |
+|----|---------|
+| ON14 | Vintage diner booth, red vinyl, checkered floor, neon signs |
+| ON15 | Neon sign wall corridor, dark hallway, clustered neon signs |
+| ON16 | Arcade, dark room, colorful machine glow, neon light spillover |
+| ON17 | Hotel corridor, patterned carpet, warm sconces, long hallway |
+| ON18 | Elevator interior, mirrored walls, overhead warm light |
+| ON19 | Laundromat, coin-op washers in row, fluorescent light |
+| ON20 | Fire escape, metal grating, brick wall, urban outdoor light |
+
+## Category: GOING OUT — DAY EXPANDED (OD)
+| ID | Setting |
+|----|---------|
+| OD12 | Pilates reformer studio, white walls, reformer machine, floor mirror |
+| OD13 | Tennis court, blue/green hard court, chain-link fence, daylight |
+| OD14 | Flower market stall, buckets of flowers, concrete floor, morning light |
+| OD15 | Stairwell, concrete steps, metal handrail, harsh overhead light |
+
+## TOTAL SETTINGS: 57
 ## Needed for 50 models x 3 posts: 150 — expand pool as model count grows
 ## Add 10+ new settings per 10 models added
