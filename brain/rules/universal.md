@@ -2,9 +2,15 @@
 
 ## Workflow — Every Batch
 1. Run `python3 outfit_gen.py <character> <category>` — always first, no exceptions
-2. Search Pinterest using character-specific search terms (in each character file) — no filters, pull the most visually compelling/sexy content available
-3. Pull 3-5 real photo references, mash together the best elements: this one's lighting, that one's pose, this one's framing
-4. Base every prompt on real photo energy — recreating an actual shot, not imagining one
+2. Scan ALL sources before writing — run in parallel every time:
+   - Google search using character's Pinterest terms (character files)
+   - Reddit (r/Instagrammers, r/femalefashionadvice, LA photo spot threads)
+   - Who What Wear / Refinery29 / Nylon — pose and location articles
+   - Google Images — real photo descriptions from indexed content
+   - Any other accessible source (Tumblr, Snapchat Spotlight, Lemon8 if accessible)
+3. Extract from scans: specific real locations, poses, lighting, what's actually behind subjects in real shots
+4. Mash together best elements from 3-5 real references — this location, that pose, this light
+5. Write prompt recreating a real shot — never imagined from scratch
 
 ## Model Usage
 - **Haiku** → file reads, git ops, running scripts, logging
