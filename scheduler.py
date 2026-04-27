@@ -59,13 +59,6 @@ SETTINGS = {
     "ON11": "Convenience store interior, fluorescent, bright",
     "ON12": "Parking structure, fluorescent, geometric concrete",
     "ON13": "Nightclub/lounge entrance, velvet rope, ambient glow",
-    "ON14": "Vintage diner booth, red vinyl, checkered floor, neon signs",
-    "ON15": "Neon sign wall corridor, dark hallway, clustered neon signs",
-    "ON16": "Arcade, dark room, colorful machine glow, neon light spillover",
-    "ON17": "Hotel corridor, patterned carpet, warm sconces, long hallway",
-    "ON18": "Elevator interior, mirrored walls, overhead warm light",
-    "ON19": "Laundromat, coin-op washers in row, fluorescent light",
-    "ON20": "Fire escape, metal grating, brick wall, urban outdoor light",
     # Going Out - Day / Golden Hour
     "OD01": "European cobblestone alley, golden hour",
     "OD02": "Beach boardwalk, sunset",
@@ -78,10 +71,6 @@ SETTINGS = {
     "OD09": "Urban mural wall, bright daylight",
     "OD10": "Forest trail, dappled natural light",
     "OD11": "Car exterior, golden hour street",
-    "OD12": "Pilates reformer studio, white walls, reformer machine, floor mirror",
-    "OD13": "Tennis court, blue/green hard court, chain-link fence, daylight",
-    "OD14": "Flower market stall, buckets of flowers, concrete floor, morning light",
-    "OD15": "Concrete stairwell, metal handrail, harsh overhead light",
 }
 
 # Post slots per model per day: morning / afternoon / night
