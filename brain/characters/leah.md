@@ -14,6 +14,9 @@ Pinterest search: `edgy girl night out LA candid` | `moody girl neon light portr
 - Smoky liner + glossy nude lip
 - Rain-slicked crosswalk (6/10 — good setting, fix pose)
 - Speakeasy, karaoke booth, neon corridor, dive bar bathroom
+- **White minimal bedroom mirror selfie** — phone at chest, body turned, slight arch, full length mirror, white walls (confirmed real photo ref)
+- **Modern building exterior at night** — concrete railing, warm sconce, city blur behind, looking back over shoulder (confirmed real photo ref)
+- **City sidewalk at night** — storefront neon behind, one hand on waist, body turned, direct eye contact (confirmed real photo ref)
 
 ## Flopped
 - Generic rooftop + blazer (5/10)
