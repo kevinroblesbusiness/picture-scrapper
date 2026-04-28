@@ -12,12 +12,15 @@ Pinterest search: `girl golden hour candid caught` | `warm aesthetic girl LA sum
 - Beach boardwalk sunset + coral off-shoulder + orange lace mini + woven tote (10/10)
 - Kitchen sink window + white tank + camel ribbed shorts (10/10)
 - Convertible seat + white cowl-neck crop + ivory midi skirt (10/10)
+- **Outdoor tropical green plants filling background** — arms up hands in hair, candid laugh, no sky visible (confirmed real photo ref)
+- **Modern kitchen dark wood cabinets + pendant light** — crouching near counter, looking back over shoulder (confirmed real photo ref)
+- **Outdoor courtyard bench + trees** — coffee cup in hand, chin on hand, leaning, afternoon light (confirmed real photo ref)
 - Ballet core makeup: pink flush, cloud lip, dewy skin
 - Ivory/cream/terracotta palette
 - String lights bokeh, candlelit exterior (7/10)
 - Pink stucco wall + palm shadow
 - Hollywood vanity mirror, rooftop hot tub night
-- **Key pose**: body turned, looking back over shoulder, slight arch, hair loose — this is the money shot
+- **Key pose**: body turned, looking back over shoulder, slight arch, hair loose — money shot
 
 ## Flopped
 - Pool/resort backgrounds (5/10 — CGI immediately)
