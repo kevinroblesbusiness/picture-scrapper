@@ -27,9 +27,8 @@ HISTORY_FILE = os.path.join(BASE, "brain/scheduling/outfit_history.json")
 OUTFITS = {
     "leah": {
         "going_out": {
-            "tops":       ["black halter crop", "black strapless corset", "black cut-out satin cami",
-                           "black mesh crop top", "black spaghetti strap crop", "black lace bralette",
-                           "black fitted bandeau", "black deep-v crop", "black asymmetric one-shoulder crop",
+            "tops":       ["black halter crop", "black strapless corset", "black mesh crop top",
+                           "black lace bralette", "black deep-v crop", "black asymmetric one-shoulder crop",
                            "black draped wrap knot crop", "black ruched tube crop top", "black peplum crop top",
                            "black lace-hem fitted cami", "black zip-front moto crop", "black square-neck satin crop"],
             "bottoms":    ["black leather mini skirt", "black micro mini skirt", "black low-rise pants",
