@@ -13,12 +13,16 @@ Pinterest search: `cute edgy girl night out candid` | `girl pink neon light port
 - Dewy skin + soft pink shimmer + thin precise liner
 - Graphic tees with color text (9/10)
 - Pink accessories + phone case
+- **Purple LED bedroom mirror selfie** — phone up, body turned, fluffy rug on floor, poster on wall (confirmed real photo ref)
+- **City sidewalk at night + neon signs** — hand on waist, body turned, slight smirk (confirmed real photo ref)
+- **Colorful painted staircase + pink/purple LED steps** — walking toward camera mid-step, hearts/flowers on walls (confirmed real photo ref)
 - Living room LED setup, dive bar bathroom mirror, warehouse rave fog
 
 ## Flopped
 - Corset + wide-leg trousers (too elegant)
 - Heavy dark eye makeup (went scary)
 - Ambiguous indoor/outdoor settings
+- Generic mural wall (too vague for AI, goes CGI)
 
 ## Rules
 - **Black always** — vary silhouette, texture, cut
