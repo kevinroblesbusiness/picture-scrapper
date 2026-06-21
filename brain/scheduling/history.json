@@ -1,0 +1,90 @@
+{
+  "2026-04-26": {
+    "leah": {
+      "morning": {
+        "id": "HB01",
+        "label": "Dark bedroom, charcoal walls, single dim lamp"
+      },
+      "afternoon": {
+        "id": "AG01",
+        "label": "Gym mirror, fluorescent overhead, equipment blurred behind"
+      },
+      "night": {
+        "id": "ON01",
+        "label": "Late night gas station, neon + fluorescent"
+      }
+    },
+    "catalina": {
+      "morning": {
+        "id": "HB02",
+        "label": "Light bedroom, white walls, platform bed, cool LED"
+      },
+      "afternoon": {
+        "id": "AG02",
+        "label": "Yoga mat, natural window light, morning"
+      },
+      "night": {
+        "id": "ON02",
+        "label": "Rooftop restaurant, Edison string lights, city skyline"
+      }
+    },
+    "isabella": {
+      "morning": {
+        "id": "HB03",
+        "label": "Bedroom, ring light setup, mirror selfie"
+      },
+      "afternoon": {
+        "id": "AG03",
+        "label": "Gym, cable machines visible behind, dark aesthetic"
+      },
+      "night": {
+        "id": "ON03",
+        "label": "Cobblestone alley, string lights, warm stone walls"
+      }
+    }
+  },
+  "2026-04-27": {
+    "leah": {
+      "morning": {
+        "id": "HB02",
+        "label": "Light bedroom, white walls, platform bed, cool LED"
+      },
+      "afternoon": {
+        "id": "AG02",
+        "label": "Yoga mat, natural window light, morning"
+      },
+      "night": {
+        "id": "ON02",
+        "label": "Rooftop restaurant, Edison string lights, city skyline"
+      }
+    },
+    "catalina": {
+      "morning": {
+        "id": "HB01",
+        "label": "Dark bedroom, charcoal walls, single dim lamp"
+      },
+      "afternoon": {
+        "id": "AG01",
+        "label": "Gym mirror, fluorescent overhead, equipment blurred behind"
+      },
+      "night": {
+        "id": "ON01",
+        "label": "Late night gas station, neon + fluorescent"
+      }
+    },
+    "isabella": {
+      "morning": {
+        "id": "HB04",
+        "label": "Bedroom, purple/pink LED strips behind headboard"
+      },
+      "afternoon": {
+        "id": "AG04",
+        "label": "Studio mirror, pilates vibe, clean white"
+      },
+      "night": {
+        "id": "ON04",
+        "label": "Rain-slicked city crosswalk, neon reflections"
+      }
+    }
+  }
+}
